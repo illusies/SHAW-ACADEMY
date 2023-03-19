@@ -1,0 +1,37 @@
+#bugatti{
+  border-color: blue;
+  width: 450px;
+}
+#bugatti:hover{
+  width: 720px;
+  border-radius: 15px;
+  border-color: #6de764
+}
+#rimac{
+  border-color: orange;
+  width: 450px;
+}
+#rimac:hover{
+  width: 720px;
+  border-radius: 15px;
+  border-color: #6de764;
+}
+.headings{
+  font-style: italic;
+}
+.prices{
+  font-style: italic;
+}
+a:visited{
+  color: orange;
+}
+h1{
+  font-family: arial black;
+}
+#submit-btn:hover{
+  background-color: orange;
+  color: white;
+}
+input:focus{
+  background-color: #6de764;
+}

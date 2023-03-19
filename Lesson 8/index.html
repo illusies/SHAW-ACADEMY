@@ -1,0 +1,91 @@
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dash Groceries</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li><a href="#">Login</a></li>
+          <li> <a href="#">Order Online</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="image-holder">
+      <img class="background-img" src="images/bg-image.jpg" width="100%">
+      <h1 id="caption-1">GROCERY SHOPPING DONE ONLINE</h1>
+    </div>
+    <h1 id="pop-cat">POPULAR CATEGORIES</h1>
+    <hr>
+    <div class="featured-wrapper">
+
+      <!-- THIS IS THE DAIRY CATEGORY -->
+      <div class="product-container">
+        <p class="cat-text">Dairy Products</p>
+        <img src="images/dairy.jpg" width="300px">
+        <div class="btn-container">
+           <button class="view-more-btn" type="button" name="button">VIEW MORE</button>
+        </div>
+      </div>
+
+      <!-- THIS IS THE FRUIT AND VEGETABLE CATEGORY -->
+      <div class="product-container">
+        <p class="cat-text">Fruit and Vegetables</p>
+        <img src="images/fruit-veg.jpg" width="300px">
+        <div class="btn-container">
+           <button class="view-more-btn" type="button" name="button">VIEW MORE</button>
+        </div>
+      </div>
+
+      <!-- THIS IS THE COLD MEAT CATEGORY -->
+      <div class="product-container">
+        <p class="cat-text">Cold Meats</p>
+        <img src="images/cold-meat.jpg" width="300px">
+        <div class="btn-container">
+           <button class="view-more-btn" type="button" name="button">VIEW MORE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIS IS THE SOCIAL MEDIA CONTAINER -->
+    <div id="social-media-container" background-color="#00000">
+      <div id="facebook-icon-container">
+        <img src="images/facebook-icon.png" width="50px">
+      </div>
+      <div id="twitter-icon-container">
+        <img src="images/twitter-icon.png" width="50px">
+      </div>
+      <div id="instagram-icon-container">
+        <img src="images/instagram-icon.png" width="50px">
+      </div>
+    </div>
+    <br>
+
+    <!-- THIS IS THE HOLDER FOR THE FORM -->
+    <div class="form-container">
+      <div class="form-head-container">
+        <img id="email-icon" src="images/email-icon.jpg"  width="50px">
+        <p id="contact-us-label">Contact us</p>
+      </div>
+
+      <form action="">
+        <label class="form-item" for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name"><br><br>
+
+        <label class="form-item" for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name"><br><br>
+
+        <label class="form-item" for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="How can we help?"></textarea><br><br>
+
+        <input type="submit" id="submit-btn" value="submit">
+      </form>
+    </div>
+  </body>
+</html>
