@@ -1,0 +1,12 @@
+<script>
+    function touchRock(){
+      var userName = prompt("what is your name?", "Enter your name here.");
+      if(userName){
+        alert("It is good to meet you, " + userName + " ");
+        document.getElementById("rocking").src = "http://s57651865.websitehome.co.uk/eon/rock_happy.png";
+      }
+    }
+  </script>
+<body onload = "alert ("Hello, I am your pet rock");">
+  <img id="rocking" src="http://s57651865.websitehome.co.uk/eon/rock_happy.png" style="cursor:pointer" onclick="touchRock();">
+</body>
